@@ -1,21 +1,20 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 import 'HomePageGridImage.dart';
 
 class ImageTile extends StatelessWidget {
   final String image;
+  final double height;
 
-  const ImageTile({super.key, required this.image});
+  const ImageTile({super.key, required this.image, required this.height});
 
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
       child: Container(
-        height: 150.0,
-        width: 150.0,
+        height: height,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
             boxShadow:const [

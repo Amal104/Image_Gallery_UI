@@ -10,7 +10,7 @@ class CachedImage extends StatelessWidget {
     return CachedNetworkImage(
             imageUrl: image,
             fit: BoxFit.cover,
-            placeholder: (context, url) => Center(child: CircularProgressIndicator()),
+            placeholder: (context, url) => Center(child: CircularProgressIndicator(color: Colors.deepPurple.shade200,)),
             errorWidget: (context, url, error) => Center(child:Image.asset('assets/5203299.jpg',fit: BoxFit.cover,) ),
           );
   }

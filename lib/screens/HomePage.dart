@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0.0,
-        title: Text('Hello',
+        title: Text('Galleriya',
             style: Styles().HomePageAppbarText(Colors.deepPurple, 26.0, 2)),
             actions:  [
               Padding(

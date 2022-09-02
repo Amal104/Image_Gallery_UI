@@ -18,6 +18,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        bottom: PreferredSize(preferredSize: Size.fromHeight(6),child: SizedBox.shrink(),),
         backgroundColor: Colors.transparent,
         elevation: 0.0,
         title: Text('Galleriya',

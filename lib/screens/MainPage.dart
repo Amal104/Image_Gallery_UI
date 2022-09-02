@@ -1,15 +1,8 @@
 import 'dart:async';
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../components/BottomNavIconList.dart';
-import '../screens/FavoritePage.dart';
-import '../screens/HomePage.dart';
-import '../screens/ProfilePage.dart';
-import '../screens/SearchPage.dart';
-import '../screens/SettingsPage.dart';
 
 class MainPage extends StatefulWidget {
   

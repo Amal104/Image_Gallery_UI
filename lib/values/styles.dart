@@ -11,6 +11,7 @@ class Styles {
         color: color,
         fontSize: fontsize,
         letterSpacing: letterspacing,
+        fontWeight: FontWeight.bold,
       );
   var TextStyle =
       GoogleFonts.pacifico(color: Colors.deepPurple, fontSize: 25.0);

@@ -1,4 +1,4 @@
-# navigation_go_router
+# Galleriya_the_Image_Gallery
 
 A new Flutter project.
 

@@ -11,8 +11,8 @@ import 'package:navigation_go_router/screens/SettingsPage.dart';
   int currentindex = 2;
 
   final pages = [
-  SearchPage(),
   FavoritePage(),
+  SearchPage(),
   HomePage(),
   SettingsPage(),
   ProfilePage()
@@ -20,10 +20,10 @@ import 'package:navigation_go_router/screens/SettingsPage.dart';
 
   
   final List<Widget> items = [
-  FaIcon(FontAwesomeIcons.magnifyingGlass,size: 20,),
   FaIcon(FontAwesomeIcons.solidHeart,size: 20,),
+  FaIcon(FontAwesomeIcons.magnifyingGlass,size: 20,),
   FaIcon(FontAwesomeIcons.houseUser,size: 20,),
-  FaIcon(FontAwesomeIcons.gear,size: 20,),
+  FaIcon(FontAwesomeIcons.listCheck,size: 20,),
   CircleAvatar(backgroundImage: CachedNetworkImageProvider('https://img.freepik.com/free-vector/mysterious-mafia-man-smoking-cigarette_52683-34828.jpg?w=740&t=st=1662031249~exp=1662031849~hmac=4ad5a513620f3e6c50ba9c7c84c4546a262977b50047ca61f043cf8fd0826a62'),maxRadius: 14,)
 
 ];

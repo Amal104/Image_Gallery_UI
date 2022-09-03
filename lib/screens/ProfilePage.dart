@@ -11,14 +11,7 @@ class ProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Text('Profile Page',style: Styles().TextStyle),
-          SizedBox(height: 30.0,),
-          TextButton(onPressed: () => context.push('/Home') , child: Text('Go Back to Home Page'))
-        ],
-      ),),
+      body: Container()
     );
   }
 }

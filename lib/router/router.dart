@@ -4,18 +4,19 @@ import 'package:navigation_go_router/screens/HomePage.dart';
 import 'package:navigation_go_router/screens/LoginScreen.dart';
 import 'package:navigation_go_router/screens/MainPage.dart';
 import 'package:navigation_go_router/screens/ProfilePage.dart';
+import 'package:navigation_go_router/screens/SplashScreen.dart';
 
 final routes = GoRouter(
 routes: [
 GoRoute(
   path: '/',
-  name: 'mainpage',
-  builder: (context, state) => MainPage(),
+  name: 'splashscreen',
+  builder: (context, state) => SplashScreen(),
   ),
   GoRoute(
-  path: '/home',
-  name: 'home',
-  builder: (context, state) => HomePage(),
+  path: '/mainpage',
+  name: 'mainpage',
+  builder: (context, state) => MainPage(),
   ),
   GoRoute(
   path: '/profile',

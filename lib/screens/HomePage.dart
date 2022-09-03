@@ -24,10 +24,7 @@ class _HomePageState extends State<HomePage> {
         title: Text('Galleriya',
             style: Styles().HomePageAppbarText(Colors.deepPurple, 26.0, 2)),
             actions:  [
-              Padding(
-                padding:  EdgeInsets.symmetric(horizontal: 15),
-                child: IconButton(onPressed: () {},icon:FaIcon(FontAwesomeIcons.camera,color: Colors.black38,size: 23,)),
-              )
+              IconButton(onPressed: () {},icon:FaIcon(FontAwesomeIcons.camera,color: Colors.black38,size: 23,))
             ],
       ),
       body: LiquidPullToRefresh(

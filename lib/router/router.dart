@@ -1,5 +1,5 @@
 import 'package:go_router/go_router.dart';
-import 'package:navigation_go_router/Widgets/BaseWidget.dart';
+import 'package:navigation_go_router/components/BaseWidget.dart';
 import 'package:navigation_go_router/screens/HomePage.dart';
 import 'package:navigation_go_router/screens/LoginScreen.dart';
 import 'package:navigation_go_router/screens/MainPage.dart';

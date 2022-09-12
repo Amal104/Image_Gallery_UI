@@ -5,6 +5,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -19,7 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
  super.initState();
  Timer(
     Duration(milliseconds: 4000),
-    () => context.go('/mainpage'));
+    () => context.go('/loginpage') );
 }
 
   @override
@@ -31,4 +32,5 @@ class _SplashScreenState extends State<SplashScreen> {
         ]),
     );
   }
+ 
 }

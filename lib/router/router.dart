@@ -14,6 +14,11 @@ GoRoute(
   builder: (context, state) => SplashScreen(),
   ),
   GoRoute(
+  path: '/loginpage',
+  name: 'loginpage',
+  builder: (context, state) => LoginScreen(),
+  ),
+  GoRoute(
   path: '/mainpage',
   name: 'mainpage',
   builder: (context, state) => MainPage(),
